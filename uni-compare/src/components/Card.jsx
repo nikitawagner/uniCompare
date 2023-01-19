@@ -1,13 +1,20 @@
 import Flag from "@mui/icons-material/Flag";
 
-export default function Card({ subject, subjectArray, setSubjectArray }) {
+export default function Card({
+  subject,
+  subjectArray,
+  setSubjectArray,
+  colorUni,
+}) {
+  const color = colorUni;
+
   function compareMarked(a, b) {
     return b.marked - a.marked;
   }
 
   const setMark = (subjectArray, subject) => {
     updateMarked(subjectArray[findIndex(subject.id)], subjectArray);
-    console.log(subjectArray);
+    console.log();
   };
 
   const updateMarked = (subject, subjectArray) => {
@@ -25,7 +32,7 @@ export default function Card({ subject, subjectArray, setSubjectArray }) {
   };
 
   return (
-    <div className="card">
+    <div className="card" style={{ backgroundColor: color }}>
       <div className="cardHeader">
         <div className="flagDiv" onClick={() => setMark(subjectArray, subject)}>
           <Flag color={subject.marked ? "warning" : " "} />
