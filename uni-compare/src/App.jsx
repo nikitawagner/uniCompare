@@ -23,7 +23,17 @@ function App() {
     marked: false,
   };
 
-  const [subjectArray, setSubjectArray] = useState([datenbanken, soe]);
+  let gdp = {
+    id: 3,
+    name: "Grundlagen der Programmierung",
+    cp: 10,
+    color: null,
+    requirements: "/",
+    description: "Basic Java Knowledge (Loops, if, Objects...)",
+    marked: false,
+  };
+
+  const [subjectArray, setSubjectArray] = useState([datenbanken, soe, gdp]);
 
   return (
     <div className="App">

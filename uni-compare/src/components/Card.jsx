@@ -1,9 +1,13 @@
 import Flag from "@mui/icons-material/Flag";
 
 export default function Card({ subject, subjectArray, setSubjectArray }) {
+  function compareMarked(a, b) {
+    return b.marked - a.marked;
+  }
+
   const setMark = (subjectArray, subject) => {
     updateMarked(subjectArray[findIndex(subject.id)], subjectArray);
-    console.log();
+    console.log(subjectArray);
   };
 
   const updateMarked = (subject, subjectArray) => {
@@ -12,6 +16,7 @@ export default function Card({ subject, subjectArray, setSubjectArray }) {
     updatedSubject.marked = !subject.marked;
     const newSubjectArray = subjectArray.slice();
     newSubjectArray[subjectIndex] = updatedSubject;
+    newSubjectArray.sort(compareMarked);
     setSubjectArray(newSubjectArray);
   };
 
