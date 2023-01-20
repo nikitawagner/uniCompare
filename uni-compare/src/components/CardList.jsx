@@ -1,32 +1,56 @@
-import { Button, IconButton } from "@mui/material";
-import { useState } from "react";
+import { Button } from "@mui/material";
+import { useEffect, useState } from "react";
 import Card from "./Card";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
-export default function CardList({ ostfalia, paris }) {
+export default function CardList({ ostfalia, paris, setOstfalia, setParis }) {
   const [subjectArray, setSubjectArray] = useState(ostfalia.subjects);
   const [subjectArrayParis, setSubjectArrayParis] = useState(paris.subjects);
+
+  useEffect(() => {
+    const updatedOstfalia = { ...ostfalia };
+    updatedOstfalia.subjects = subjectArray;
+    setOstfalia(updatedOstfalia);
+  }, [subjectArray]);
+
+  useEffect(() => {
+    const updatedParis = { ...paris };
+    updatedParis.subjects = subjectArrayParis;
+    setParis(updatedParis);
+  }, [subjectArrayParis]);
+
+  const saveJsons = () => {
+    const updatedOstfaliaJson = JSON.stringify(ostfalia, null, 2);
+    const updatedParisJson = JSON.stringify(paris, null, 2);
+
+    var dataStr =
+      "data:text/json;charset=utf-8," + encodeURIComponent(updatedOstfaliaJson);
+    var downloadAnchorNode = document.createElement("a");
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", "ostfalia" + ".json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+
+    dataStr =
+      "data:text/json;charset=utf-8," + encodeURIComponent(updatedParisJson);
+    downloadAnchorNode = document.createElement("a");
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", "paris" + ".json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  };
 
   return (
     <>
       <div>
         <Button
           variant="contained"
-          startIcon={<KeyboardArrowUpIcon />}
+          color="success"
           style={{ margin: "10px" }}
+          onClick={saveJsons}
         >
-          Show Ostfalia
-        </Button>
-        <Button variant="contained" color="success" style={{ margin: "10px" }}>
           Save
-        </Button>
-        <Button
-          variant="contained"
-          startIcon={<KeyboardArrowUpIcon />}
-          style={{ margin: "10px" }}
-        >
-          Show Paris
         </Button>
       </div>
 

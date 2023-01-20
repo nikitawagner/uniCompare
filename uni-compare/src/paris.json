@@ -1,69 +1,69 @@
 {
-    "name": "Paris Saclay",
-    "color": "#0F9480",
-    "subjects": [
-        {
-            "id": 1,
-            "name": "Datenbanken",
-            "cp": 5,
-            "color": null,
-            "description": "ER-Diagramme, SQL",
-            "requirements": "/",
-            "marked": false
-        },
-        {
-            "id": 2,
-            "name": "Software Engineering",
-            "cp": 5,
-            "color": null,
-            "description": "Design Patterns, GIT, SCRUM",
-            "requirements": "/",
-            "marked": false
-        },
-        {
-            "id": 3,
-            "name": "Grundlagen des Programmierens",
-            "cp": 5,
-            "color": null,
-            "description": "Basic Java Knowledge (Loops, if, Objects...)L",
-            "requirements": "/",
-            "marked": false
-        },
-        {
-            "id": 4,
-            "name": "Computermathematik",
-            "cp": 5,
-            "color": null,
-            "description": "Mathe halt",
-            "requirements": "/",
-            "marked": false
-        },
-        {
-            "id": 5,
-            "name": "Diskrete Strukturen",
-            "cp": 5,
-            "color": null,
-            "description": "Logik usw",
-            "requirements": "/",
-            "marked": false
-        },
-        {
-            "id": 6,
-            "name": "Programmieren",
-            "cp": 5,
-            "color": null,
-            "description": "Object Oriented Programming",
-            "requirements": "/",
-            "marked": false
-        },
-        {
-            "id": 7,
-            "name": "Rechnerstrukturen",
-            "cp": 5,
-            "color": null,
-            "description": "Assembler, C, Microcontroller",
-            "requirements": "/",
-            "marked": false
-        }
-    ]
+  "name": "Paris Saclay",
+  "color": "#0F9480",
+  "subjects": [
+    {
+      "id": 2,
+      "name": "Software Engineering",
+      "cp": 5,
+      "color": null,
+      "description": "Design Patterns, GIT, SCRUM",
+      "requirements": "/",
+      "marked": true
+    },
+    {
+      "id": 1,
+      "name": "Datenbanken",
+      "cp": 5,
+      "color": null,
+      "description": "ER-Diagramme, SQL",
+      "requirements": "/",
+      "marked": false
+    },
+    {
+      "id": 3,
+      "name": "Grundlagen des Programmierens",
+      "cp": 5,
+      "color": null,
+      "description": "Basic Java Knowledge (Loops, if, Objects...)L",
+      "requirements": "/",
+      "marked": false
+    },
+    {
+      "id": 4,
+      "name": "Computermathematik",
+      "cp": 5,
+      "color": null,
+      "description": "Mathe halt",
+      "requirements": "/",
+      "marked": false
+    },
+    {
+      "id": 5,
+      "name": "Diskrete Strukturen",
+      "cp": 5,
+      "color": null,
+      "description": "Logik usw",
+      "requirements": "/",
+      "marked": false
+    },
+    {
+      "id": 6,
+      "name": "Programmieren",
+      "cp": 5,
+      "color": null,
+      "description": "Object Oriented Programming",
+      "requirements": "/",
+      "marked": false
+    },
+    {
+      "id": 7,
+      "name": "Rechnerstrukturen",
+      "cp": 5,
+      "color": null,
+      "description": "Assembler, C, Microcontroller",
+      "requirements": "/",
+      "marked": false
+    }
+  ]
 }
