@@ -20,7 +20,14 @@ export default function JsonImport({ name, setUniJson }) {
   });
 
   return (
-    <div {...getRootProps({ className: "dropzone" })}>
+    <div
+      {...getRootProps({ className: "dropzone" })}
+      style={
+        acceptedFiles.length === 0
+          ? { backgroundColor: "#888888" }
+          : { backgroundColor: "green" }
+      }
+    >
       <input className="input-zone" {...getInputProps()} />
       <div className="text-center">
         <div className="dropzone-content">{name}</div>
