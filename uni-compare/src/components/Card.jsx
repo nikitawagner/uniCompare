@@ -33,7 +33,14 @@ export default function Card({
   };
 
   return (
-    <div className="card" style={{ backgroundColor: color }}>
+    <div
+      className="card"
+      style={
+        subject.color === null
+          ? { backgroundColor: color }
+          : { backgroundColor: subject.color }
+      }
+    >
       <div className="cardHeader">
         <div className="flagDiv" onClick={() => setMark(subjectArray, subject)}>
           <Flag color={subject.marked ? "warning" : " "} />
@@ -42,7 +49,7 @@ export default function Card({
           {subject.name} ({subject.cp}CP)
         </div>
       </div>
-      <div>Topics: {subject.description}</div>
+      <div>Semester: {subject.semester}</div>
       <div>Requirements: {subject.requirements}</div>
     </div>
   );

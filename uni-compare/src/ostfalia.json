@@ -1,69 +1,476 @@
 {
   "name": "Ostfalia",
-  "color": "#0F1A94",
+  "color": "#6F99AB",
   "subjects": [
     {
       "id": 1,
-      "name": "Datenbanken",
+      "name": "Programmieren in C",
       "cp": 5,
       "color": null,
-      "description": "ER-Diagramme, SQL",
+      "description": "Alles rund um C",
       "requirements": "/",
-      "marked": true
-    },
-    {
-      "id": 4,
-      "name": "Computermathematik",
-      "cp": 5,
-      "color": null,
-      "description": "Mathe halt",
-      "requirements": "/",
-      "marked": true
-    },
-    {
-      "id": 3,
-      "name": "Grundlagen des Programmierens",
-      "cp": 5,
-      "color": null,
-      "description": "Basic Java Knowledge (Loops, if, Objects...)L",
-      "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 5
     },
     {
       "id": 2,
-      "name": "Software Engineering",
+      "name": "Teamprojekt",
       "cp": 5,
       "color": null,
-      "description": "Design Patterns, GIT, SCRUM",
+      "description": "Als Team ein grösseres Software Projekt machen",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 3,
+      "name": "Seminar",
+      "cp": 5,
+      "color": null,
+      "description": "Keine Ahnung",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 4,
+      "name": "Praxisprojekt",
+      "cp": 15,
+      "color": null,
+      "description": "Alleine eine groessere Software machen",
+      "requirements": "/",
+      "marked": false,
+      "semester": 7
     },
     {
       "id": 5,
-      "name": "Diskrete Strukturen",
-      "cp": 5,
+      "name": "Bachelorarbeit",
+      "cp": 15,
       "color": null,
-      "description": "Logik usw",
+      "description": "Bachelorarbeit",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 7
     },
     {
       "id": 6,
-      "name": "Programmieren",
+      "name": "Statistik",
       "cp": 5,
-      "color": null,
-      "description": "Object Oriented Programming",
+      "color": "#006aff",
+      "description": "- Beschreibende Statistik \\n - Charakteristika und Visualisierung ein- und zweidimensionaler Häufigkeitsverteilungen \\n - Zeitreihen \\n - Grundbegriffe der Wahrscheinlichkeitsrechnung \\n - Ein- und zweidimensionale Zufallsvariable \\n - Schließende Statistik \\n - Einfache Punkt- und Intervallschätzungen \\n - Grundlagen Hypothesentests (t-Test, Fisher-Test, Chi-Quadrat-Test)",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 3
     },
     {
       "id": 7,
-      "name": "Rechnerstrukturen",
+      "name": "Betriebl. Informations- und Planungssysteme",
       "cp": 5,
-      "color": null,
-      "description": "Assembler, C, Microcontroller",
+      "color": "#006aff",
+      "description": "- MRP und MRP II \\n- Fallstudie zu SAP HANA Advanced-Planning-Systeme \\n- Produktionsplanung \\n- Tourenplanung \\n- Inventory Management \\n- Standortplanung",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 8,
+      "name": "Datenanalyse",
+      "cp": 5,
+      "color": "#006aff",
+      "description": "Aufgaben und Ziele der Datenanalyse \\n Explorative Datenanalyse (Visualisierung, Abhängigkeiten zwischen Attributen, Ausreißer) \\n Notwendigkeit zur Absicherung gegen zufällige Effekte \\n Klassifikation (Regel-Induktion (PRISM, CN2), Entscheidungsbäume (ID3)) \\n Evaluation von Klassifikatoren (Test/Train-Split, Kreuzvalidierung) \\n Clusteranalyse (Hierarchische Analyse, Mean-Shift) \\n Regressionsanalyse (linear, einfache und multiple Regression) \\n Assoziationsregeln (Apriori) \\n Anfälligkeit der Verfahren (abhängige oder irrelevante Attribute, Ausreißer",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 9,
+      "name": "Ausgewaehlte Themen des IE",
+      "cp": 5,
+      "color": "#006aff",
+      "description": "- Netzwerkanalyse \\n- Textmining \\n- Sequenzanalyse \\n- Textmining \\n- Bioinformatik \\n- Bildanalyse \\n- Information Visualisation \\n- Weitere Themen ergeben sich aus aktuellen Forschungsthemen",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 10,
+      "name": "Data Warehousing",
+      "cp": 5,
+      "color": "#006aff",
+      "description": "Architektur von Data Warehouses \\nmultidimensionale Modellierung \\nOLAP-Operationen \\nSpeicherung von Würfeln (ROLAP, MOLAP, HOLAP)\\n Datenqualität (Profiling, Validation, Standardisierung/Bereinigung, Anreicherung, Monitoring, Ähnlichkeitsmaße, Duplikaterkennung) \\nETL-Prozess (u.a. Extraktion, Monitoring, Surrogate-Keys, SCD1/2/3, ..) \\nUmsetzung des ETL-Prozesses (z.B. mit Pentaho) \\nSchema-Integration \\nAnfrage-Optimierung im DWH (Speicherung, Materialisierung, ..)",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 11,
+      "name": "Wissensmanagement",
+      "cp": 5,
+      "color": "#006aff",
+      "description": "Wissensrepräsentation \\n Überblick Unterstützungssysteme für das Wissensmanagement \\n Text Retrieval System (Modelle: Boole, Vektorraum, Text-Vorverarbeitung) \\n Ranking von Suchergebnissen (ohne und mit Verknüpfung von Dokumenten) \\n Case-Based Reasoning und Collaborative Filtering  \\n Expertensysteme (automatisch Schlussfolgern in Aussagenlogik (AL) und Prädikatenlogik (PL)) \\n Semantic Web (Ontologien, RDF, RDFS, OWL, SPARQL), praktische Nutzung mit Protege",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 12,
+      "name": "Weitere Programmiersprache",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Haskell & Python",
+      "requirements": "/",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 13,
+      "name": "Weitere Programmiersprache",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Haskell & Python",
+      "requirements": "/",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 14,
+      "name": "Software Engineering Projekt",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Software Engineering Projekt",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 15,
+      "name": "Mensch Computer Interaktion",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Erkenntnisse, Methoden und Vorgehensweisen zur Herstellung gebrauchstauglicher Systeme, in denen eine Interaktion von Systemen der Informationstechnik mit Benutzern stattfindet \\n Einführung: Mensch-Aufgabe-Software, Entwicklung der Software Ergonomie im Kontext der historischen Entwicklung der Informationstechnologie, Gesetze und Normen \\n Grundlagen: Menschliche Informationsverarbeitung und Handlungsprozesse, Ein- und Ausgabegeräte, Interaktionstechniken, Tätigkeitsgestaltung \\n Benutzerzentrierter Entwicklungsprozess: Vorgehensmodelle, Bedarfs- und Anforderungsanalyse, Spezifikation und Prototyping, Evaluation",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 16,
+      "name": "Fortgeschrittene Themen des SE",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Entwicklung in der Cloud \\n  Continuous Integration, Continuous Delivery, Continuous Deployment \\n Microservices \\n Docker",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 17,
+      "name": "Qualitätssicherung und Testen",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Konzepte & Methoden zum testen \\n Reviews und Inspektion \\n Testen im softwarelebenszyklus und testmanagement \\n statischer test \\n Dynamischer Test und Testfallentwurfsverfahren \\n Testwerkzeuge \\n Konstruktive Qualitaetssicherungsverfahren \\n Einfuehrung in formalen Methoden der Qualitaetssicherung \\n Vertiefung einzelner Qualitaetsaspekte wie Bedienbarkeit und Wartbarkeit",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 18,
+      "name": "Sensor Aktor Systeme",
+      "cp": 5,
+      "color": "#8C3200",
+      "description": "Kerngroesse von Signalen \\n Gleichstrom \\n Aufbau, Arbeitsweise und Einsatz von Messgeraeten \\n Kondensator \\n Spulen, Sensoren, Signalverarbeitung",
+      "requirements": "/",
+      "marked": false,
+      "semester": 2
+    },
+    {
+      "id": 19,
+      "name": "System On Chip",
+      "cp": 5,
+      "color": "#8C3200",
+      "description": "Programmierbare Logik \\n Designregeln, Testmethoden, Beschreibungsebenen \\n VHDL \\n Schnittstelle zu Halbleiterhersteller \\n Systemintegration \\n Entwurf und SImulation von einfachen Systemen mit Hardwarebeschreibungssprachen",
+      "requirements": "/",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 20,
+      "name": "Embedded Toolchain",
+      "cp": 5,
+      "color": "#8C3200",
+      "description": "Vertiefung der Programmiersprache C \\n Hardware- und Sofwaremäßige Bearbeitung von Interrupts \\n Ansprechen von Peripherie \\n Arbeitsweise des Compilers (insb. Speicheraufteilung bss,data,text,rodata) \\n Aufgaben und Abhängigkeiten der Toolchain (incl. Dateiformate) \\n Arbeitsweise eines Debuggers",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 21,
+      "name": "Embedded Systems and Architectures",
+      "cp": 5,
+      "color": "#8C3200",
+      "description": "Strukturierung von Software auf embedded Systemen (Zeitscheibensystem vs. ereignisorientierte \\n Programmierung, Prioritätenverwaltung, Zykluszeiten, IRQ's …) \\n Echtzeit Betriebssysteme \\n Properitäre Betriebssysteme\\nGrundstruktur von zyklischen Architekturen\\nGrundstruktur von ereignisorientierten Architekturen\\nNebenläufigkeit\\nSteuern / Regeln\\nDiagnose / Parametrisierung",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 22,
+      "name": "Embedded Systems Modelling Lab.",
+      "cp": 5,
+      "color": "#8C3200",
+      "description": "Konzepte zum Aufteilen von Systemen in Software und Hardware \\n Verifikation von Systemen in Bezug auf Zeitverhalten \\n Entwurf eines Systems on Chip und Programmierung der hier entworfenen Komponenten anhand eines realen Anwendungssystems zb Aufzuf, Roboterarm",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 23,
+      "name": "Echtzeitsysteme",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Technische Prozesse / Messen / Steuern / Regeln \\n Reglerstrukturen / mathematische Beschreibung  \\n Diskretisierung Zustandswerte / Zeitverhalten  \\n Rekapitulation besonderer Eigenschaften von embedded Systemen  \\n Prozessperipherie  \\n Prozessorientiertes Datenmanagement  \\n Echtzeitanforderungen und Programminteraktion  \\n Taskmanagement / Scheduling  \\n Tasksynchronisation / Kommunikation  \\n Funktionale Sicherheit  \\n Manipulationssicherheit  \\n Leitsysteme / Feldbusse / SPS",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 24,
+      "name": "Vernetzte Systeme",
+      "cp": 5,
+      "color": "#002831",
+      "description": "Systemanalyse und Modellierung \\n Echtzeit und Adressierung \\n Kommunikationsverfahren und -techniken \\n Protokolle CANopen, Echtzeit Ethernet, Sonderverfahren \\n Kommunikationsobjekte (SDO / PDO / NMT) \\n Objektverzeichnis",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 25,
+      "name": "Systems and Control Engineering",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "Einführung in in die Robotik als Beispiel für mechatronische Systeme \\n Verstehen von (Sensor-) Signalen \\n Regelungstechnik für mechatronische (Roboter-) Systeme \\n Modellierung und Simulation von mechatronischen (Roboter-) Systemen mit Octave/Matlab/Scilab \\n Experimente zu AGV und UGV",
+      "requirements": "/",
+      "marked": false,
+      "semester": 2
+    },
+    {
+      "id": 26,
+      "name": "Systemmodellierungssprachen",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "Systembegriff und Systemmodelle \\n Methoden und Diagramme zur Struktur-, Architektur- und Verhaltens-Beschreibung \\n Vernetzte Systeme \\n C und C++ Programmierung, Unterschiede in den Programmierkonzepten \\n Modellierung mechatronischer Systeme \\n Anwendung von Softwarepaketen für die Systemanalyse und -modellierung \\n Systemmodellierungssprachen (z.B. UML, SysML) \\n Ereignisdiskrete Systeme \\n Vorgehensmodelle (MDA, MDD, ...), Erweiterungen \\n Modellbasierte Codegenerierung",
+      "requirements": "/",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 27,
+      "name": "Safety and Requirements",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "- Entwicklungsprozesse, Standards \\n Anforderungsmanagement - Grundlagen, Werkzeuge, Beispiele \\n Change Management \\n Funktionale Sicherheit und Zuverlässigkeit - Grundlagen, Fehlerbaumanalysen, Risiko Management \\n Grundlagen für Robuste Systeme \\n Beispiele aus den Bereichen Embedded Systems, Automotive Systems u.a",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 28,
+      "name": "Modellbasierte Codegenerierung",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "- Spezifikationstechniken für Analyse und Design: Strukturorientierte, operationale und deskriptive Techniken \\n Automatische Codegenerierung aus dem Design \\n Validierung und Verifikation von Softwaresystemen \\n Testen und Modelchecking",
+      "requirements": "/",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 29,
+      "name": "Mediendesign",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "Layout, Layoutraster für Print und web \\n Corporate Identity, Corporate Design für Print und web \\n Typographie für Print und web \\n Bildgestaltung, Bildbearbeitung für Print und web \\n Dateiformate, Datenkonvertierungen, Farbmanagement \\n Peripherie (fotografieren, scannen, drucken) \\n Arbeit mit Gestaltungssoftware (Adobe Creative Suite und vergleichbare Software) \\n verschiedene Übungsaufgaben in der LV, drei selbstständig zu lösende Aufgaben",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 30,
+      "name": "Audio/Video Design",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "Rezeptionsästhetik \\n Grundlagen visueller Wahrnehmung \\n Bewegtbilddramaturgie \\n Auditive Wahrnehmung  \\n Bildgestaltung \\n Lichtgestaltung \\n Videoschnitttechnik \\n Tonaufnahme/Tontechnik \\n integrative Gestaltung \\n  Distribution",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 31,
+      "name": "Mixed Reality",
+      "cp": 5,
+      "color": "#A68D01",
+      "description": "Einführung virtuelle Umgebungen (Virtual Reality, Augmented Reality, Mixed Reality) \\n Theoretische Grundlagen \\n  Kennenlernen von Programmiersprachen und Werkzeugen (z.B. Processing und Arduino) \\n Methoden der Mensch-Computer Interaktion \\n Kennenlernen von Geräten aus dem Bereich der virtuellen, erweiterten und Mixed Realität",
+      "requirements": "/",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 32,
+      "name": "Gesprächs- und Verhandlungsführung",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Planung, Durchführung und Auswertung von beruflichen Gesprächen \\n Was ist in den einzelnen Phasen der Gespräche besonders zu beachten? \\n Verschiedene Arten von Mitarbeitergesprächen \\n Auffrischung von Gesprächstechniken \\n Authentisch und professionell kommunizieren \\n Bedeutung der Körpersprache und der bewusste Einsatz zur Gesprächsförderung \\n Gesprächshaltungen nach A. Harris \\n Selbstwahrnehmung und Fremdwahrnehmung (Johari Fenster) \\n Grundbegriffe des Verhandelns \\n Grundregeln des klassischen Verhandelns",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 33,
+      "name": "Konfliktmanagement",
+      "cp": 3,
+      "color": "#2D2D2D",
+      "description": "Das Wesen von Konflikten \\n Symptome und Eskalationsdynamik \\n Analyse von Konflikten \\n Lösungsorientiertes Vorgehen in Konflikten \\n Das Konfliktgespräch \\n Methoden zur Klärung von Teamkonflikten \\n Inhalt / Aufgabe des Kontaktstudiums: \\n Training, Feedback und Reflektion der Methoden \\n Inhalt / Aufgabe des Eigenstudiums: vReflektion der Methoden und Vertiefung des Gelernten, Transfer",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 34,
+      "name": "Autonomes Fahren",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Systemarchitektur ( Hardware- und Software-Architektur, Vernetzung ) \\n Sensorik und Aktorik ( Video-, Ultraschall-, Lidar-basierte Sensoren, el. Antriebe ) \\n Umgebungserfassung und Navigation \\n Spezielle FahrsituationenvSicherheit und Test",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 35,
+      "name": "Autosar",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Entwicklungsprozess für eingebettete Systeme im automotiven Umfeld \\n Grundlagen und technische Funktionsweise der Autosar Hard- und Softwarekomponenten \\n Systembeschreibung mit Modellierungswerkzeugen \\n Kommunikationsbeschreibung mit Signalmatrix \\n Parametrisierung und Generierung von Architekturkomponenten \\n Umgang mit der vorgestellten Werkzeugkette bis zur Implementierung",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 36,
+      "name": "Concurrent Computing",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "I. Allgemeiner Teil \\n Gründe für die Entwicklung von Multicore-CPUs \\n Flynnsche Taxonomie sowie Klassifikation von MIMD-Systemen nach Johnson \\n Skalierung paralleler Implementierungen (Speedup) sowie parallele Effizienz \\n Grenzen der Skalierung unter Beachtung der Gesetze von Amdahl und Gustafson \\n II. Beispiel für einen Shared Memory Ansatz ist die Java Concurrency API. \\n Lambda Expressions\\n Atomare Datenstrukturen\\n Concurrent Collections\\n  Konzepte zur Synchronisierung (Semaphore, Monitore, Locks, etc.) und klassische Probleme (Wechselseitiger Ausschluss, Producer-Consumer, Reader Writer, Dining Philosphers)\\n Phasen-Modelle (Barrier, Phaser)\\n Verwaltung von Threads (ThreadPool, Fork-Join Pool)",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 37,
+      "name": "Corporate Design, Werbung, Marketing, PR",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 38,
+      "name": "Corporate Design, Werbung, Marketing, PR",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Corporate Design, Grundbegriffe, Anwendungsgebiete, Inhalte,\\n Entwurf, Umsetzung, Relaunch, Musterlösungen \\n Erstellung eines CD-Manuals, Verwendung der Adobe-Software mit weiterenAnwendungsgebieten \\n Werbemedien - analog und digital, Konzepte, Strategie \\n Zeit- und Finanzkalkulation und Medienproduktion",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 39,
+      "name": "Einführung in die Bild- und Texterkennung",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Vorverarbeitung und Merkmalsextraktion \\n Einfache Klassifizierer (z.B. Minimum-Distance Klassifizierer) \\n Probabilistische Klassifizierer \\n Mehrschichten-Perzeptrons und faltende neuronale Netzwerke  \\n Überwachtes Lernen \\n Unüberwachtes Lernen / Clustering \\n Möglichkeiten und Grenzen des maschinellen Lernens",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 40,
+      "name": "Einführung in die Elektromobilität",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Mobilität (Mobilität, Verkehr) und Umwelt (Mobilität versus Umwelt, Treiber der Elektromobilität, Verkehrslärm) \\n  Smart Home (Lastprofile, dezentrale regenerative Energieerzeugung/Energiespeicherung, Energieverbrauch/Autarkie, Demand Side Management, private Elektromobilität, Lademanagement) \\m Elektrische Antriebe (Anforderungen, Aufbau und Eigenschaften elektrischer Fahrzeugantriebe) und (Hybride) Fahrzeugkonzepte (Strukturen hybrider Fahrzeuge, Micro-, Mild-, Full-, Power- und Plug-inHybrid, Paralleler und Serieller Hybrid, Powersplit Hybrid, Verbrauchspotenzial, Funktionsprinzipien Verbrennungsmotor, Betriebsstrategien hybrider Fahrzeuge) \\n Batterietechnik (Grundlagen Elektrochemie, Aufbau, Funktionen von Li-Ionen-Batterien, Eigenschaften ",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 41,
+      "name": "Fahrassistenzsysteme",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Grundlagen der Fahrerassistenzsysteme \\n Rahmenbedingungen der Entwicklung \\n Funktionale Sicherheit (Rückverfolgbarkeit, Verifikation und Validierung) \\n Virtuelle Integration und Test von FAS \\n Sensorik und Aktuatorik für FAS \\n Maschinelles Sehen, Datenfusion und Umfeld-Präsentation \\n Car 2 X Kommunikation und Infrastruktur \\n Autonomes Fahren",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 42,
+      "name": "Internet of Things",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Motivation, Definition, Abgrenzung, Anwendungsgebiete \\n typische Anforderungen an und Architekturen für IoT-Systeme \\n IoT-Protokolle (z.B. MQTT, CoAP, GATT und 802.11-basierte wie Zigbee, 6LoWPAN, Thread) \\n Grundlagen Intelligenter Sensoren \\n Funktechniken für drahtlose IoT-Sensoren (z. B. LoRa/LoRaWAN, BLE, NB-IoT) \\n Infrastruktur-Stacks \\n Anwendungen (z.B. Smart Home, Industrial IoT)",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 43,
+      "name": "Medizinische Informatik",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Gesundheitsökonomie \\n Krankenhausinformationssysteme \\n elektronische Patientenakten \\n Arztpraxisinformationssysteme \\n Telemedizin \\n Assistierende Gesundheitstechnologien \\n Interoperabilität und IT-Standards",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 44,
+      "name": "μC-Peripherie Labor",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Herzschlag/Pulsmesser anhand eines optischen Sensors \\n Servo-Ansteuerung von RC-Servos \\n Servo-Emulation von RC-Servos \\n Drehzahlmessung von Motoren \\n  I2C Schnittstelle händisch emulieren \\n I2C Schnittstelle per Peripherie ansteuern \\n BLDC Motor ansteuern \\n Tonerzeugung über PWM \\n IR-Code erzeugen/dekodieren",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 45,
+      "name": "Pervasive Systeme",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Grundlagen der Pervasiven Systeme \\n Anwendungsfelder des Pervasiven Computing \\n Technologien des Pervasiven Computing (Sensorik, Kommunikation, Sicherheit) \\n Sozio-ökonomische Voraussetzungen und Auswirkungen des Pervasiven Computing \\n Mensch-Maschine-Interaktion \\n Digitalisierung von unterschiedlichen Anwendungsfällen",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 46,
+      "name": "Software fuer sichere Systeme",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": "Funktionale Sicherheit und der Begriff des Risikos \\n Methoden zur Gefährdungs- und Sicherheitsanalyse (FMEA, FTA, STAMP) \\n Sicherheitsnormen \\n Softwaresicherheit und Architekturmuster für sichere Software \\n Anforderungen an sicherheitskritische SW \\n Scade Suite \\n - die synchrone Sprache Scade: Konzepte, Syntax, Semantik \\n  - die Scade Entwicklungsumgebung: Vorgehensmodell, Scade Suite,  \\n - Simulation, Code-Generierung mit dem zertifizierten Code Generator, Testen \\n Validierung und Verifikation \\n Sicherheitsnachweisführung",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
+    },
+    {
+      "id": 47,
+      "name": "Virtualisierung",
+      "cp": 5,
+      "color": "#2D2D2D",
+      "description": " Grundlagen und technische Funktionsweise \\n Virtualisierungskonzepte \\n Einsatzgebiete und Beispielanwendungen, Cloud \\n Installation und Anwendung kommerziell verfügbarer Virtualisierunglösungen (z.B. VMware und HyperV) \\n Administration von Virtuellen Maschinen, Datensicherung, Sicherheit \\n Virtualisierung von eingebetten Systemen",
+      "requirements": "/",
+      "marked": false,
+      "semester": "/"
     }
   ]
 }

@@ -3,31 +3,14 @@
   "color": "#0F9480",
   "subjects": [
     {
-      "id": 2,
-      "name": "Software Engineering",
-      "cp": 5,
-      "color": null,
-      "description": "Design Patterns, GIT, SCRUM",
-      "requirements": "/",
-      "marked": true
-    },
-    {
       "id": 1,
       "name": "Datenbanken",
       "cp": 5,
       "color": null,
       "description": "ER-Diagramme, SQL",
       "requirements": "/",
-      "marked": false
-    },
-    {
-      "id": 3,
-      "name": "Grundlagen des Programmierens",
-      "cp": 5,
-      "color": null,
-      "description": "Basic Java Knowledge (Loops, if, Objects...)L",
-      "requirements": "/",
-      "marked": false
+      "marked": true,
+      "semester": 3
     },
     {
       "id": 4,
@@ -36,7 +19,28 @@
       "color": null,
       "description": "Mathe halt",
       "requirements": "/",
-      "marked": false
+      "marked": true,
+      "semester": 3
+    },
+    {
+      "id": 3,
+      "name": "Grundlagen des Programmierens",
+      "cp": 5,
+      "color": null,
+      "description": "Basic Java Knowledge (Loops, if, Objects...)L",
+      "requirements": "/",
+      "marked": false,
+      "semester": 1
+    },
+    {
+      "id": 2,
+      "name": "Software Engineering",
+      "cp": 5,
+      "color": null,
+      "description": "Design Patterns, GIT, SCRUM",
+      "requirements": "/",
+      "marked": false,
+      "semester": 3
     },
     {
       "id": 5,
@@ -45,7 +49,8 @@
       "color": null,
       "description": "Logik usw",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 1
     },
     {
       "id": 6,
@@ -54,7 +59,8 @@
       "color": null,
       "description": "Object Oriented Programming",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 2
     },
     {
       "id": 7,
@@ -63,7 +69,8 @@
       "color": null,
       "description": "Assembler, C, Microcontroller",
       "requirements": "/",
-      "marked": false
+      "marked": false,
+      "semester": 2
     }
   ]
 }
