@@ -4,73 +4,373 @@
   "subjects": [
     {
       "id": 1,
-      "name": "Datenbanken",
-      "cp": 5,
+      "name": "Einfuehrung in die Informatik",
+      "cp": 5.5,
       "color": null,
-      "description": "ER-Diagramme, SQL",
+      "description": "Vorstellung der Grundlagen der Informatik \\n Basics von Python",
       "requirements": "/",
-      "marked": true,
-      "semester": 3
+      "marked": false,
+      "semester": 1
     },
     {
       "id": 4,
-      "name": "Computermathematik",
-      "cp": 5,
+      "name": "Einfuehrung in die Imperative Programmierung",
+      "cp": 6,
       "color": null,
-      "description": "Mathe halt",
+      "description": "C++, Tests, Docs, modulare Programmierung",
       "requirements": "/",
-      "marked": true,
-      "semester": 3
+      "marked": false,
+      "semester": 1
     },
     {
       "id": 3,
-      "name": "Grundlagen des Programmierens",
-      "cp": 5,
+      "name": "Mathe 1",
+      "cp": 7.5,
       "color": null,
-      "description": "Basic Java Knowledge (Loops, if, Objects...)L",
+      "description": "Wie Computermathematik",
       "requirements": "/",
       "marked": false,
       "semester": 1
     },
     {
       "id": 2,
-      "name": "Software Engineering",
-      "cp": 5,
+      "name": "Mathe 2",
+      "cp": 4,
       "color": null,
-      "description": "Design Patterns, GIT, SCRUM",
-      "requirements": "/",
-      "marked": false,
-      "semester": 3
-    },
-    {
-      "id": 5,
-      "name": "Diskrete Strukturen",
-      "cp": 5,
-      "color": null,
-      "description": "Logik usw",
+      "description": "Wie Mathematik fuer die Informatik",
       "requirements": "/",
       "marked": false,
       "semester": 1
     },
     {
-      "id": 6,
-      "name": "Programmieren",
-      "cp": 5,
+      "id": 5,
+      "name": "Modulare Programmierung",
+      "cp": 5.5,
       "color": null,
-      "description": "Object Oriented Programming",
-      "requirements": "/",
+      "description": "Testing, Modellierungssprachen, Objektorientierung",
+      "requirements": "Kenntnisse der Imperativen Programmierung",
+      "marked": false,
+      "semester": 1
+    },
+    {
+      "id": 6,
+      "name": "Algorithmen und Datenstrukturen",
+      "cp": 6,
+      "color": null,
+      "description": "Wie AlgoDat",
+      "requirements": "Einfuehrung in die Imperative Programmierung",
       "marked": false,
       "semester": 2
     },
     {
       "id": 7,
-      "name": "Rechnerstrukturen",
-      "cp": 5,
+      "name": "Mathe 3",
+      "cp": 7,
       "color": null,
-      "description": "Assembler, C, Microcontroller",
+      "description": "Integrale (so aehnlich wie Computermathematik, nur mit Komplexen Zahlen",
       "requirements": "/",
       "marked": false,
       "semester": 2
+    },
+    {
+      "id": 8,
+      "name": "Mathe 4",
+      "cp": 4.5,
+      "color": null,
+      "description": "Lineare Algebra",
+      "requirements": "/",
+      "marked": false,
+      "semester": 2
+    },
+    {
+      "id": 9,
+      "name": "PPEI: EXPLORER UN ENVIRONNEMENT PROFESSIONNEL",
+      "cp": 2.5,
+      "color": null,
+      "description": "Compétences préprofessionnelles : Connaître le métier, les perspectives d’insertion, les entreprises ou organisations Travailler en équipe : s’intégrer, se positionner, collaborer, communiquer et rendre compte Savoir se présenter et présenter sa démarche Compétences transférables S’organiser, gérer son temps et ses priorités Faire preuve d’initiative Mobiliser les informations pertinentes et les mettre en forme Construire et développer une argumentation Faire preuve d’esprit critique Respecter la syntaxe et l’orthographe Construire un exposé adapté à l’objet et au public Prendre la parole Organisation",
+      "requirements": "/",
+      "marked": false,
+      "semester": 2
+    },
+    {
+      "id": 10,
+      "name": "PPEI - COMPRENDRE L'ENTREPRISE - 1ÈRE PARTIE",
+      "cp": 2.5,
+      "color": null,
+      "description": "Définir les différents types d'entreprises. Préciser le vocabulaire de l'entreprise. Discriminer chiffre d'affaire et bénéfices. Discuter autour des principes de base de l'économie générale et de l'entreprise. Prendre la parole en public : transmettre sa pensée, gérer son stress et prendre confiance soi.",
+      "requirements": "",
+      "marked": false,
+      "semester": 2
+    },
+    {
+      "id": 11,
+      "name": "INTRODUCTION À LA SCIENCE DES DONNÉES 1",
+      "cp": 4,
+      "color": null,
+      "description": "Familiarisation avec la Science des Données \\n Programmation Python dans un cadre appliqué et ludique",
+      "requirements": "Kenntnisse Lineare Algebra, Geometrie, Wahrscheinlichkeiten, Kenntnisse in Python ",
+      "marked": false,
+      "semester": 2
+    },
+    {
+      "id": 12,
+      "name": "Mathe fuer die Informatik",
+      "cp": 5,
+      "color": null,
+      "description": "Introduction au langage et aux méthodes mathématiques propres à l'informatique. D'une part, le langage propositionel et ce qui en découle d'une part, qui sont nécessaires pour aborder plus tard les preuves de programmes ou certaines méthodes pour les graphes. On insiste en particulier sur la rigueur des démonstrations. D'autre part, les probabilités et statistiques, qui sont indispensables en science des données.",
+      "requirements": "Introduction à la Science des Données #1",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 13,
+      "name": "Introduction Funktionale Programmierung",
+      "cp": 3,
+      "color": null,
+      "description": "Introduction du paradigme de programmation fonctionnelle. Ce cours donne les bases de la programmation applicative (sans effets de bords) et récursive. Il met en avant la notion de fonction, en tant qu'objet de premirère classe du langage (au même titre que les entiers, les chaînes de caractères, …). Le cours propose aussi une introduction au langage OCaml.",
+      "requirements": "Programmieren und Datenstrukturen",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 14,
+      "name": "OUTILS LOGIQUES ET ALGORITHMIQUES",
+      "cp": 4,
+      "color": null,
+      "description": "Étudier des structures permettant de modéliser et résoudre des problèmes informatiques, et apprendre à raisonner sur ces structures. Le cours mélange des aspects mathématiques et algorithmiques, et vise à la fois à découvrir des structures de données et algorithmes fondamentaux en informatique et à affûter ses capacités de raisonnement.",
+      "requirements": "notions de bases de logique, d’ensembles, d’algèbre",
+      "marked": false,
+      "semester": 4
+    },
+    {
+      "id": 15,
+      "name": "PRINCIPES D'INTERPRÉTATION DES LANGAGES",
+      "cp": 4.5,
+      "color": null,
+      "description": "WIE THEORETISCHE INFORAMTIK: Compréhension des bases de l'analyse lexicale, syntaxique, sémantique et de certains outils de leur réalisation.",
+      "requirements": "Grundbegriffe Algorithmik, C",
+      "marked": false,
+      "semester": 4
+    },
+    {
+      "id": 16,
+      "name": "ARCHITECTURE DES ORDINATEURS",
+      "cp": 5,
+      "color": null,
+      "description": "Comprendre et maitriser les différents mécanismes et protocoles de communication des réseaux informatiques.",
+      "requirements": "C",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 17,
+      "name": "RESEAUX",
+      "cp": 5,
+      "color": null,
+      "description": "Familiarisation avec la Science des Données \\n Programmation Python dans un cadre appliqué et ludique",
+      "requirements": "Kenntnisse Lineare Algebra, Geometrie, Wahrscheinlichkeiten, Kenntnisse in Python ",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 18,
+      "name": "BASE DE DONNEES 1",
+      "cp": 5,
+      "color": null,
+      "description": "Étude des principes des Systèmes de Gestion de Bases de Données (SGBD) relationnels et mise en pratique de ces principes",
+      "requirements": "Programmation, Architecture des ordinateures",
+      "marked": false,
+      "semester": 4
+    },
+    {
+      "id": 19,
+      "name": "INTRODUCTION À LA SCIENCE DES DONNÉES 2",
+      "cp": 2.5,
+      "color": null,
+      "description": "L'objectif de ce cours est de se familiariser avec la Science des Données et la programmation en Python en s'amusant.",
+      "requirements": "INTRODUCTION À LA SCIENCE DES DONNÉES 1",
+      "marked": false,
+      "semester": 4
+    },
+    {
+      "id": 20,
+      "name": "INFORMATIQUE GRAPHIQUE POUR LA SCIENCE DES DONNÉES",
+      "cp": 4,
+      "color": null,
+      "description": "acquisition des compétences particulières de la mise en place d'un affichage 3D. Maîtrise de l'ensemble du pipeline graphique des données jusqu'à l'affichage sur GPU.",
+      "requirements": "Grundlagen des Designs",
+      "marked": false,
+      "semester": 4
+    },
+    {
+      "id": 21,
+      "name": "PROGRAMMATION OBJET ET GÉNIE LOGICIEL",
+      "cp": 5,
+      "color": null,
+      "description": "Approfondissement des concepts de la programmation objet, avec utilisation avancée du langage Java. Connaissance du cycle de vie des logiciels et des processus de développement. Outils de modélisation de systèmes logiciels et de support au développement à grande échelle. On vise à la fois la virtuosité dans la programmation d’un composant donné et la capacité à insérer ce composant dans un projet plus large. À la fin, l’étudiant doit être capable de produire du code Java lisible, robuste et réutilisable, ainsi que de lire le code source de projets réels.",
+      "requirements": "INTRODUCTION À LA SCIENCE DES DONNÉES 1",
+      "marked": false,
+      "semester": 4
+    },
+    {
+      "id": 22,
+      "name": "INTRODUCTION À L'INTERACTION HUMAIN-MACHINE",
+      "cp": 2.5,
+      "color": null,
+      "description": "Comprendre et mettre en pratique les principes de base de la conception et de l'évaluation des systèmes interactifs",
+      "requirements": "/",
+      "marked": false,
+      "semester": 3
+    },
+    {
+      "id": 23,
+      "name": "ALGORITHMIQUE GÉNÉRALE",
+      "cp": 5,
+      "color": null,
+      "description": "Programmer proprement et efficacement : Programmation, Algos, Structures de données, Complexités.",
+      "requirements": "Kentnisse Programmierung, Algorithmen und Komplexitaet",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 24,
+      "name": "LOGIQUE POUR L'INFORMATIQUE",
+      "cp": 5,
+      "color": null,
+      "description": "WIE DISKRETE STRUKTUREN? Langage logique (calul propositionnel et calcul des prédicats), modélisation à l'aide de la logique \\n Systèmes de règles logiques pour construire des preuves \\n Termes : signature, preuve par récurrence structurelle, définition récursive de fonctions \\n Calcul des prédicats : syntaxe, variables libres et liées, sémantique, équivalence \\n Modèle, modèle de Herbrand \\n Exemples de théories \\n Démonstration automatique, formes normales, résolution, séquents",
+      "requirements": "tables de vérité des connecteurs logiques",
+      "marked": false,
+      "semester": 5
+    },
+    {
+      "id": 25,
+      "name": "LANGAGES FORMELS",
+      "cp": 2.5,
+      "color": null,
+      "description": "WIE THEOINF \\n Automates finis : non déterminisme, expression rationnelle, preuve du théorème de Kleene (système d'équations associé à un automate), minimisation, résiduels, construction directe de l'automate minimal, lemme de l'étoile, pompage, propriétés de clôture, lien avec l'analyse lexicale. \\n Grammaires : hiérarchie de Chomsky, grammaire régulière, grammaires hors contexte, Lemme de la double étoile pour les langages algébriques, propriétés de clôture Illustration avec des grammaire de vrai langage de programmation, arbre de syntaxe abstraite \\n Automates à pile : fonctionnement non-déterministe, terminaison, lien avec les langages algébrique. \\n Analyse syntaxique ascendante: calcul des tables d'analyse LR(0), SLR(1), gestion des conflits, le cas général LR(1), le cas utilisé en pratique LALR(1). \\n Calculabilité: Machines de Turing , langage/problèmes indécidables. Le probléme de l'arrêt. Introduction aux classes de complexité, P, NP, problème NP-complet.",
+      "requirements": "Automaten",
+      "marked": false,
+      "semester": 6
+    },
+    {
+      "id": 26,
+      "name": "RÉSEAUX AVANCÉS",
+      "cp": 5,
+      "color": null,
+      "description": "Pour fonctionner correctement, les réseaux nécessitent un grand nombre d'équipements et de processus, rendant leur architecture souvent complexe. Pour réduire cette complexité, les différentes fonctions ont été décomposées en niveaux protocolaires. Après avoir posé les fondements des télécommunications et rappelé les bases de la transmission de l’information, cette unité d'enseignement détaille les deux premiers niveaux des réseaux, à savoir « physique » (bande passante, débit binaire, codage, …) et « liaison » (codes détecteurs, codes correcteurs, techniques d'accès, …). Les principaux protocoles correspondants sont également présentés. Une série de travaux dirigés et de travaux pratiques permet d’assimiler et d’appliquer les différents concepts étudiés.",
+      "requirements": "/",
+      "marked": false,
+      "semester": "?"
+    },
+    {
+      "id": 27,
+      "name": "BASES DE DONNÉES 2",
+      "cp": 5,
+      "color": null,
+      "description": "Etude des problèmes de bases de données ci-dessus, avec la partie du langage SQL pour les traiter.\\nBases du langage PL/SQL : procédures stockées, curseurs, gestion des transactions, triggers.\\nInitiation à l'accès à une base depuis un langage généraliste (PHP) : modifications, requêtes select et curseurs, appels de fonctions et procédures stockées",
+      "requirements": "/",
+      "marked": false,
+      "semester": "6"
+    },
+    {
+      "id": 28,
+      "name": "SYSTÈMES D'EXPLOITATION ET PROGRAMMATION CONCURRENTE",
+      "cp": 5,
+      "color": null,
+      "description": "Notion de processus, ordonnancement et programmation concurrente\\nAllocation de resources\\nNotion de section critique et d'interblocage",
+      "requirements": "/",
+      "marked": false,
+      "semester": "5"
+    },
+    {
+      "id": 29,
+      "name": "GÉNIE LOGICIEL AVANCÉ",
+      "cp": 5,
+      "color": null,
+      "description": "Approfondir les techniques de modélisation en UML avec des annotations formelles \\n Test de boite-noire à partir d'une spécification \\n Sequence-Test boite-noire à partir d'une spécification State-Chart \\n Test de boite-noire de sécurité \\n Test de boite-blanche à partir de programmes \\n Fuzz-Testing \\n Vérification à base des methodes deductives preuves formelles",
+      "requirements": "Java, UML",
+      "marked": false,
+      "semester": "5"
+    },
+    {
+      "id": 30,
+      "name": "INTRODUCTION APPRENTISSAGE STATISTIQUE",
+      "cp": 5,
+      "color": null,
+      "description": "",
+      "requirements": "La notion de gradient et d'optimisation de fonction de coût \\n le perceptron multiclasse, et multicouche \\n les ensembles pour valider l'apprentissage \\n la notion d'agent en interaction avec un environnement \\n les équations de Bellman permettan d'évaluer la politique de mouvement pour l'agent \\n l'apprentissage Q-learning et SARSA",
+      "marked": false,
+      "semester": "6"
+    },
+    {
+      "id": 31,
+      "name": "PROGRAMMATION FONCTIONNELLE AVANCÉE",
+      "cp": 5,
+      "color": null,
+      "description": "Maîtrise du paradigme fonctionnel \\n Connaissance des structures de données avancées (persistante, mutables) \\n Notion de sémantique des langages de programmation",
+      "requirements": "/",
+      "marked": false,
+      "semester": "5"
+    },
+    {
+      "id": 32,
+      "name": "PROGRAMMATION FONCTIONNELLE AVANCÉE",
+      "cp": 5,
+      "color": null,
+      "description": "",
+      "requirements": "/",
+      "marked": false,
+      "semester": "5"
+    },
+    {
+      "id": 33,
+      "name": "PROGRAMMATION WEB",
+      "cp": 5,
+      "color": null,
+      "description": "",
+      "requirements": "Reseaux 1/2",
+      "marked": false,
+      "semester": "?"
+    },
+    {
+      "id": 34,
+      "name": "INTRODUCTION IA",
+      "cp": 5,
+      "color": null,
+      "description": "La première partie étudie celui des jeux avec adversaires (e.g. Echecs, Dames, Othello, …). Elle présente la notion de stratégie de jeu, des techniques d'estimation de configuration, le principe d'une recherche Minimax et présente différents algorithmes permettant, à partir d'une simple description des règles d'un jeu, d'explorer efficacement l'ensemble des parties possibles (e.g. AlphaBeta, NegEchecAlphaBeta, MTDf,...). \\n La seconde partie s'intéresse aux problèmes pouvant se formaliser en termes d’états et d’opérateurs de changements d’états. Leur résolution s'apparente alors à la recherche d'un chemin solution dans un graphe. Différents algorithmes d'exploration sont présentés et comparés. Certains d'entre eux exploitent des informations heuristiques sur les états pour les guider plus efficacement vers le but à atteindre. \\n Le cours introduit également quelques notions de représentation de connaissance et de raisonnement, centrales en Intelligence Artificielle, par le bais des systèmes à bases de connaissances. Differents niveaux de langages sont illustrés et les principes de base des moteurs d'inférences (chaînage avant, arrière ou mixte) permettant de raisonner efficacement sur des bases de connaissances sont introduits.",
+      "requirements": "Java, AlgoDat",
+      "marked": false,
+      "semester": "6"
+    },
+    {
+      "id": 35,
+      "name": "ANALYSE INFORMATIQUE DE DONNÉES BIOLOGIQUES",
+      "cp": 5,
+      "color": null,
+      "description": "Interrogation de bases de données biologiques réelles et mise en évidence des caractéristiques fortes (massives, hétérogènes) de ces données; Conception et implémentation d’une base de données biologique fonctionnelle depuis des données réelles (format XML), développement d'un parseur en python pour le remplissage de la base, interfacage de la base en PHP pour son interrogation via des formulaires. \\n Analyse de données phylogénétiques. Introduction à la phylogénie, algorithmes de contruction d'arbres phylogénétiques, Implémentation d’un pipeline d’analyse phylogénétique.",
+      "requirements": "/",
+      "marked": false,
+      "semester": "5"
+    },
+    {
+      "id": 36,
+      "name": "INTRODUCTION À L'OPTIMISATION COMBINATOIRE",
+      "cp": 5,
+      "color": null,
+      "description": "De nombreux problèmes réels sont intrinsèquement des problèmes d'optimisation combinatoire. L'idée de cette unité d'enseignement est d'aborder les problèmes classiques d'optimisation ainsi que ses techniques de résolution en partant d'applications que l'on retrouvent dans le monde réel (réseaux, Internet des Objets, traitement des données, gestion des stock",
+      "requirements": "Programmiern, Lineare algebra",
+      "marked": false,
+      "semester": "5"
+    },
+    {
+      "id": 37,
+      "name": "INTERFACES INTERACTIVES AVANCÉES",
+      "cp": 5,
+      "color": null,
+      "description": "",
+      "requirements": "/",
+      "marked": false,
+      "semester": "?"
     }
   ]
 }
