@@ -33,6 +33,10 @@
   max-width: 400px;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .cardHeader {
   display: flex;
   flex-direction: row;
@@ -116,4 +120,35 @@
 .inputFields {
   display: flex;
 
+}
+
+.modalHeadline {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.modalDescription {
+  font-size: 14pt;
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 1.4;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modalFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.modalFooterItem {
+  margin: 5px;
+  text-align: center;
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 10px;
 }

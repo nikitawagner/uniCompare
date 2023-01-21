@@ -2,7 +2,14 @@ import { Button } from "@mui/material";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 
-export default function CardList({ ostfalia, paris, setOstfalia, setParis }) {
+export default function CardList({
+  ostfalia,
+  paris,
+  setOstfalia,
+  setParis,
+  handleOpen,
+  setSelectedSubject,
+}) {
   const [subjectArray, setSubjectArray] = useState(ostfalia.subjects);
   const [subjectArrayParis, setSubjectArrayParis] = useState(paris.subjects);
 
@@ -66,6 +73,8 @@ export default function CardList({ ostfalia, paris, setOstfalia, setParis }) {
                   setSubjectArray(updatedSubject)
                 }
                 colorUni={ostfalia.color}
+                handleOpen={() => handleOpen()}
+                setSelectedSubject={(subject) => setSelectedSubject(subject)}
               />
             );
           })}
@@ -82,6 +91,8 @@ export default function CardList({ ostfalia, paris, setOstfalia, setParis }) {
                   setSubjectArrayParis(updatedSubject)
                 }
                 colorUni={paris.color}
+                handleOpen={() => handleOpen()}
+                setSelectedSubject={(subject) => setSelectedSubject(subject)}
               />
             );
           })}

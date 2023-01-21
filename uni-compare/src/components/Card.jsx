@@ -1,11 +1,15 @@
 import Flag from "@mui/icons-material/Flag";
 import { useEffect } from "react";
+import ControlPointIcon from "@mui/icons-material/ControlPoint";
+import Button from "@mui/material/Button";
 
 export default function Card({
   subject,
   subjectArray,
   setSubjectArray,
   colorUni,
+  handleOpen,
+  setSelectedSubject,
 }) {
   const color = colorUni;
 
@@ -32,6 +36,11 @@ export default function Card({
     return subjectArray.findIndex((subject) => subject.id === id);
   };
 
+  const handleCardClick = () => {
+    setSelectedSubject(subject);
+    handleOpen();
+  };
+
   return (
     <div
       className="card"
@@ -51,6 +60,14 @@ export default function Card({
       </div>
       <div>Semester: {subject.semester}</div>
       <div>Requirements: {subject.requirements}</div>
+      <div
+        style={{ marginTop: "20px" }}
+        onClick={() => {
+          handleCardClick();
+        }}
+      >
+        <ControlPointIcon />
+      </div>
     </div>
   );
 }
